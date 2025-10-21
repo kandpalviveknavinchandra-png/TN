@@ -47,11 +47,15 @@
 #if-elif ladder
 #skip
 
-#for loop
-#in range - start stop steps - start and steps are set as default as 0,1 if not mentioned in range 
-#a = range(5,51,5)
-#for i in a:
-#print(i)
+"""
+
+for loop
+in range - start stop steps - start and steps are set as default as 0,1 if not mentioned in range 
+a = range(5,51,5)
+for i in a:
+print(i)
+
+"""
 
 #table
 # n = int(input("Which number's table? :"))
@@ -450,4 +454,5 @@ def info(**kwargs):
 name = input("Enter your name : ")
 
 info(name = "Rudeus Greyrat", age = 24, destiny = "Protect My Family.")
+
 print(f"Your name has been successfully registered as {name}")
